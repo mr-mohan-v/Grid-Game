@@ -1,0 +1,39 @@
+.cell {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.grid{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items:center;
+}
+.center{
+    margin-left:735px;
+}
+.grid2{
+    display:grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    align-items:center;
+    border: 10px solid #cccccc;
+    margin-left: 620px; margin-right: 620px;
+    background-color:#211F1F;
+}
+.cell2{
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color:#211F1F;
+}
+body{
+    background-color:#211F1F;
+}
+#timer{
+     color:#bacdab;
+} 
